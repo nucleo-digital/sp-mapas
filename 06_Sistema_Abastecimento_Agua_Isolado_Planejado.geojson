@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Id": 1, "TIPO": "Sistema isolado de abastecimento de agua", "SITUACAO": "Planejado", "NOME": "CHACARA SANTO AMARO" }, "geometry": { "type": "Point", "coordinates": [ -46.678592001304047, -23.821240076910527 ] } },
+{ "type": "Feature", "properties": { "Id": 2, "TIPO": "Sistema isolado de abastecimento de agua", "SITUACAO": "Planejado", "NOME": "BORORE" }, "geometry": { "type": "Point", "coordinates": [ -46.648522003830351, -23.769132940078887 ] } },
+{ "type": "Feature", "properties": { "Id": 3, "TIPO": "Sistema isolado de abastecimento de agua", "SITUACAO": "Planejado", "NOME": "BARRAGEM" }, "geometry": { "type": "Point", "coordinates": [ -46.65428996002592, -23.874388001743846 ] } },
+{ "type": "Feature", "properties": { "Id": 4, "TIPO": "Sistema isolado de abastecimento de agua", "SITUACAO": "Planejado", "NOME": "ENGENHEIRO MARSILAC" }, "geometry": { "type": "Point", "coordinates": [ -46.705957010633519, -23.907251993942921 ] } },
+{ "type": "Feature", "properties": { "Id": 5, "TIPO": "Sistema isolado de abastecimento de agua", "SITUACAO": "Planejado", "NOME": "EMBURA" }, "geometry": { "type": "Point", "coordinates": [ -46.740513002157812, -23.881734001489217 ] } }
+]
+}

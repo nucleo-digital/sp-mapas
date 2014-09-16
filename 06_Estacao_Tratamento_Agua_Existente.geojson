@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID": 8, "LONGITUDE": -46302244, "LATITUDE": -23592720, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA Taiacupeba" }, "geometry": { "type": "Point", "coordinates": [ -46.30224402619605, -23.592718617390592 ] } },
+{ "type": "Feature", "properties": { "ID": 1, "LONGITUDE": -47020514, "LATITUDE": -23623769, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA Sao Lourenco" }, "geometry": { "type": "Point", "coordinates": [ -47.020513998892113, -23.623767577599299 ] } },
+{ "type": "Feature", "properties": { "ID": 2, "LONGITUDE": -46953094, "LATITUDE": -23648018, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA Alto Cotia" }, "geometry": { "type": "Point", "coordinates": [ -46.953093973340557, -23.648016611849766 ] } },
+{ "type": "Feature", "properties": { "ID": 4, "LONGITUDE": -46706851, "LATITUDE": -23639060, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA ABV" }, "geometry": { "type": "Point", "coordinates": [ -46.706850967949912, -23.639058658791747 ] } },
+{ "type": "Feature", "properties": { "ID": 3, "LONGITUDE": -46867271, "LATITUDE": -23535938, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA Baixo Cotia" }, "geometry": { "type": "Point", "coordinates": [ -46.86727097169797, -23.535936583433589 ] } },
+{ "type": "Feature", "properties": { "ID": 6, "LONGITUDE": -46549567, "LATITUDE": -23757702, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA Rio Grande" }, "geometry": { "type": "Point", "coordinates": [ -46.54956698515673, -23.757700619029279 ] } },
+{ "type": "Feature", "properties": { "ID": 7, "LONGITUDE": -46368984, "LATITUDE": -23737180, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA Ribeirao da Estiva" }, "geometry": { "type": "Point", "coordinates": [ -46.368983952855046, -23.737178577686137 ] } },
+{ "type": "Feature", "properties": { "ID": 5, "LONGITUDE": -46650653, "LATITUDE": -23428846, "LAYER": "Estacao de Tratamento de Agua Exist", "NOME": "ETA Guarau" }, "geometry": { "type": "Point", "coordinates": [ -46.65065296762603, -23.428844616740751 ] } }
+]
+}

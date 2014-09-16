@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Id": 1, "LAYER": "Sistema de Esgotamento Sanitario Isolado Planejado", "NOME": "CIDADE NOVA AMERICA" }, "geometry": { "type": "Point", "coordinates": [ -46.677283064203785, -23.869461008665713 ] } },
+{ "type": "Feature", "properties": { "Id": 2, "LAYER": "Sistema de Esgotamento Sanitario Isolado Planejado", "NOME": "BARRAGEM" }, "geometry": { "type": "Point", "coordinates": [ -46.65428996002592, -23.874388001743846 ] } },
+{ "type": "Feature", "properties": { "Id": 3, "LAYER": "Sistema de Esgotamento Sanitario Isolado Planejado", "NOME": "EMBURA" }, "geometry": { "type": "Point", "coordinates": [ -46.740513002157812, -23.881734001489217 ] } },
+{ "type": "Feature", "properties": { "Id": 4, "LAYER": "Sistema de Esgotamento Sanitario Isolado Planejado", "NOME": "ENGENHEIRO MARSILAC" }, "geometry": { "type": "Point", "coordinates": [ -46.705957010633519, -23.907251993942921 ] } },
+{ "type": "Feature", "properties": { "Id": 5, "LAYER": "Sistema de Esgotamento Sanitario Isolado Planejado", "NOME": "CHACARA SANTO AMARO" }, "geometry": { "type": "Point", "coordinates": [ -46.678592001304047, -23.821240076910527 ] } },
+{ "type": "Feature", "properties": { "Id": 6, "LAYER": "Sistema de Esgotamento Sanitario Isolado Planejado", "NOME": "BORORE" }, "geometry": { "type": "Point", "coordinates": [ -46.648522003830351, -23.769132940078887 ] } }
+]
+}
