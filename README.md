@@ -2,6 +2,17 @@
 
 ## Mapas de São Paulo no formato GeoJSON
 
+## Embed de mapa pelo Github
+
+1. Copie a URL completa do GeoJSON a ser utilizado, será como essa: `https://github.com/nucleo-digital/sp-mapas/blob/master/02A_Subsetores_Arco_Tiete.geojson`
+2. URL base do mapa: `/nucleo-digital/sp-mapas/master/02A_Subsetores_Arco_Tiete.geojson`
+3. URL de embed do mapa: `https://embed.github.com/view/geojson/` + URL base do mapa + `?height=500&width=1000`
+4. TAG completa: `<script src="https://embed.github.com/view/geojson/nucleo-digital/sp-mapas/master/02A_Subsetores_Arco_Tiete.geojson?height=500&width=1000"></script>`
+5. Se você fez certo, deve aparecer o mapa assim:
+
+<script src="https://embed.github.com/view/geojson/nucleo-digital/sp-mapas/master/02A_Subsetores_Arco_Tiete.geojson?height=500&width=1000">
+</script>
+
 ## Fonte
 
 http://gestaourbana.prefeitura.sp.gov.br/aquivos-da-lei/
