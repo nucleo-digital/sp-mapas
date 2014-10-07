@@ -3,7 +3,7 @@
 var mongoose = require('mongoose');
 
 
-var dbUrl = process.env.MONGOHQ_URL || 'mongodb://127.0.0.1/gestaourbana-mapas';
+var dbUrl = process.env.MONGOHQ_URL || 'mongodb://127.0.0.1/sp-mapas';
 //var connection = mongoose.createConnection(dbUrl);
 var connection = mongoose.connect(dbUrl);
 // CONNECTION EVENTS
