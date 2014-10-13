@@ -33,3 +33,52 @@ getFiles('.').forEach(function (v,k) {
         });
     });
 });
+
+// db.layers.find({name:{ $in:['Existentes', 'Planejados', 'Em_avaliacao']}}, {_id:1})
+
+// db.layers.find({name:{ $in:[
+// 'Atendimento_ao_Cidadao',
+// 'Cultura',
+// 'Desenvolvimento_Economico',
+// 'Desenvolvimento_Social',
+// 'Desenvolvimento_Urbano',
+// 'Direitos_Humanos_e_Cidadania',
+// 'Drenagem',
+// 'Educacao',
+// 'Espacos_Publicos',
+// 'Esporte_e_Lazer',
+// 'Habitacao',
+// 'Meio_Ambiente',
+// 'Mobilidade',
+// 'Participacao_e_Transparencia',
+// 'Pessoas_com_Deficiencia',
+// 'Populacao_Idosa',
+// 'Residuos_Solidos',
+// 'Saude',
+// 'Seguranca',
+// 'Tecnologia_e_Inovacao']}}, {_id:1})
+
+// db.layers.find({name:{ $nin:[
+// 'Existentes',
+// 'Planejados',
+// 'Em_avaliacao',
+// 'Atendimento_ao_Cidadao',
+// 'Cultura',
+// 'Desenvolvimento_Economico',
+// 'Desenvolvimento_Social',
+// 'Desenvolvimento_Urbano',
+// 'Direitos_Humanos_e_Cidadania',
+// 'Drenagem',
+// 'Educacao',
+// 'Espacos_Publicos',
+// 'Esporte_e_Lazer',
+// 'Habitacao',
+// 'Meio_Ambiente',
+// 'Mobilidade',
+// 'Participacao_e_Transparencia',
+// 'Pessoas_com_Deficiencia',
+// 'Populacao_Idosa',
+// 'Residuos_Solidos',
+// 'Saude',
+// 'Seguranca',
+// 'Tecnologia_e_Inovacao']}}, {_id:1})
