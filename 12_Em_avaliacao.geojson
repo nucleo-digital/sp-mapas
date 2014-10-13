@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.665064, -23.56448]
+        },
+        "properties": {
+            "id": "4",
+            "subprefeitura": "Pinheiros",
+            "proponente": "Rogerio Machado Gouveia",
+            "telefone": "(11) 96544-1831",
+            "email": "rogeriogouveia@me.com",
+            "localizacao": "Rua Padre João Manoel, 826",
+            "inicio_cooperacao": "-",
+            "termino_cooperacao": "-",
+            "": "",
+            "solicitacao": "27/6/2014",
+            "conhecimento_publico": "02/07 a 15/07/2014",
+            "chamamento": "-",
+            "aprovado": "Indeferido",
+            "construido": "12/8/2014",
+            "removido": "",
+            "data_evento": "",
+            "status": 0
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.680325, -23.582361]
+        },
+        "properties": {
+            "id": "7",
+            "subprefeitura": "Pinheiros",
+            "proponente": "Rogerio Machado Gouveia",
+            "telefone": "(11) 96544-1831",
+            "email": "rogeriogouveia@me.com",
+            "localizacao": "Rua Pedroso Alvarenga,1051",
+            "inicio_cooperacao": "-",
+            "termino_cooperacao": "-",
+            "": "",
+            "solicitacao": "11/8/2014",
+            "conhecimento_publico": "13/08 a 26/08/2014",
+            "chamamento": "",
+            "aprovado": "Indeferido",
+            "construido": "21/08/2014",
+            "removido": "",
+            "data_evento": "",
+            "status": 0
+        }
+    }]
+}
