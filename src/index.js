@@ -1,14 +1,14 @@
-var db = require('./db'),
+let db = require('./db'),
     LayerModel = require('./LayerModel'),
-    fs = require('fs');
+    fs = require('fs-extra');
 
 function getFiles(dir,files_){
     files_ = files_ || [];
     if (typeof files_ === 'undefined') files_=[];
-    var files = fs.readdirSync(dir);
-    for(var i in files){
+    let files = fs.readdirSync(dir);
+    for(let i in files){
         if (!files.hasOwnProperty(i)) continue;
-        var name = dir+'/'+files[i];
+        let name = dir+'/'+files[i];
 
         if (name.indexOf('.geojson') > 0) {
             files_.push(name);
@@ -21,11 +21,11 @@ getFiles('.').forEach(function (v,k) {
     fs.readFile(v, {encoding: 'utf-8'}, function (err, data) {
       if (err) throw err;
 
-        var geo_file = JSON.parse(data);
-        var name_layer = v.substr(5);
+        let geo_file = JSON.parse(data);
+        let name_layer = v.substr(5);
         name_layer = name_layer.replace(/.geojson/, '');
 
-        var layer = new LayerModel({name:name_layer, features:geo_file})
+        let layer = new LayerModel({name:name_layer, features:geo_file})
 
         layer.save(function(err2,results) {
             if (err) console.log(err);

@@ -1,0 +1,22 @@
+{
+  "name": "sp-mapas",
+  "version": "0.0.2",
+  "description": "Arquivos no formato geojson do município de São Paulo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucleo-digital/sp-mapas.git"
+  },
+  "scripts": {
+    "build": "node ./src/build.js http://nucleo-digital.github.io/sp-mapas",
+    "postinstall": "node ./src/postinstall.js",
+    "shp2geojson": "node .src/shp2geojson.js"
+  },
+  "bugs": {
+    "url": "https://github.com/nucleo-digital/sp-mapas/issues"
+  },
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "mongoose": "^5.7.14",
+    "mongoose-geojson-schema": "^2.1.3"
+  }
+}

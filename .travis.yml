@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+ - lts/*
+
+branches:
+ only:
+  - master
+
+install:
+  - npm ci
+
+script:
+ - npm run build
+
+deploy:
+  provider: pages
+  local_dir: dist
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+
+notifications:
+  webhooks: https://www.travisbuddy.com
