@@ -13,7 +13,7 @@ const findInDir = (dir, filter, fileList = []) => {
             fileList.push(filePath)
         }
     })
-    return fileList;
+    return fileList
 }
 
 module.exports = findInDir

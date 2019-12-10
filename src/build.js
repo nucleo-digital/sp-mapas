@@ -42,7 +42,7 @@
         const lists = apiIndex(baseUrl, filesPaths)
         const urls = lists.list
         const urlsStringfied = JSON.stringify({urls})
-        fs.writeFileSync(`${__dirname}/../dist/index.js`, urlsStringfied)
+        fs.writeFileSync(`${__dirname}/../dist/index.json`, urlsStringfied)
         fs.writeFileSync(`${__dirname}/../dist/README.md`, lists.markdown)
     }
     catch (error){

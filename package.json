@@ -7,7 +7,7 @@
     "url": "git+https://github.com/nucleo-digital/sp-mapas.git"
   },
   "scripts": {
-    "build": "node ./src/build.js http://nucleo-digital.github.io/sp-mapas",
+    "build": "node ./src/build.js https://nucleo-digital.github.io/sp-mapas",
     "postinstall": "node ./src/postinstall.js",
     "shp2geojson": "node .src/shp2geojson.js"
   },
