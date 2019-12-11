@@ -1,3 +1,10 @@
+/**
+* Returna uma lista de paths para uma determinada path e padrão e extensão.
+* Lê subpaths se tiver arquivos.
+* @param { String } dir Um diretório. Ex. './mapas'
+* @param { RegExp } filter Um padrão regex do tipo de arquivo. Ex. /\.geojson$/
+* @return { Array } Uma lista de paths
+*/
 const findInDir = (dir, filter, fileList = []) => {
     const fs = require('fs-extra')
     const path = require('path')

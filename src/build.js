@@ -21,6 +21,8 @@
     const filesPaths = findInDir('./mapas', /\.geojson$/)
 
     let error = false
+
+    // cria os arquivos em dist
     filesPaths.forEach(filePath => {
         try {
             const outputData = minified(`${__dirname}/../${filePath}`)
@@ -39,6 +41,7 @@
     })
 
     try {
+        // cria dist/index.js e dist/README.md
         const lists = apiIndex(baseUrl, filesPaths)
         const urls = lists.list
         const urlsStringfied = JSON.stringify({urls})
@@ -50,5 +53,5 @@
         error = true
     }
 
-    if (!error) console.log('Geojsons minificado no diretório /dist')
+    if (!error) console.log('Geojsons minificados no diretório /dist.\nLista atualizada em /dist/README.md')
 })()
