@@ -108,3 +108,10 @@ dist
 /shapes
 *.shp
 *.dbf
+*.shx
+*.cpg
+*.zip
+
+
+# Downloads
+/Downloads
